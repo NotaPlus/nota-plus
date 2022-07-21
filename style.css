@@ -129,21 +129,21 @@ h1{
 	}
 	.contacts{
 		font-size: 12px;
-		width: 75%;
+		width: 80%;
 		height: 70%;
 	}
 }
 
 @media (max-width: 424px){
 	.contacts{
-		width: 90%;
+		width: 95%;
 		padding-right: 2px;
 	}
 }
 
 @media (max-width: 378px){
 	.contacts{
-		width: 90%;
+		width: 100%;
 		padding-right: 0;
 		padding-left: 1px;
 	}
