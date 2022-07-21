@@ -62,7 +62,7 @@ h1{
 	font-size: 16px;
 }
 .tools{
-	width: 80%;
+	width: 90%;
 }
 .content{
 	display: grid;
@@ -98,4 +98,38 @@ h1{
 }
 .icons{
 	display: flex;
+}
+
+@media (max-width: 499px){
+	.information{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 544px){
+	.heading{
+		padding-left: 10%;
+	}
+}
+
+@media (max-width: 473px){
+	.heading{
+		padding-left: 10px;
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 478px){
+	.information{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.content{
+		margin-left: 0px;
+	}
+	.contacts{
+		font-size: 12px;
+		width: 75%;
+		height: 70%;
+	}
 }
