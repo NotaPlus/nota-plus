@@ -133,3 +133,10 @@ h1{
 		height: 70%;
 	}
 }
+
+@media (max-width: 426px){
+	.contacts{
+		width: 90%;
+		padding-right: 2px;
+	}
+}
