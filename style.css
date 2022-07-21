@@ -120,17 +120,19 @@ h1{
 }
 
 @media (max-width: 478px){
-	.information{
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
 	.content{
 		margin-left: 0px;
 	}
 	.contacts{
 		font-size: 12px;
 		width: 80%;
-		height: 70%;
+	}
+}
+
+@media (max-width: 426px){
+	.info{
+		display: grid;
+		grid-template-rows: 45% 55%;
 	}
 }
 
@@ -138,6 +140,10 @@ h1{
 	.contacts{
 		width: 90%;
 		padding-right: 0;
+	}
+	.info{
+		display: grid;
+		grid-template-rows: 40% 60%;
 	}
 }
 
