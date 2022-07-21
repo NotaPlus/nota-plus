@@ -134,9 +134,17 @@ h1{
 	}
 }
 
-@media (max-width: 426px){
+@media (max-width: 424px){
 	.contacts{
 		width: 90%;
 		padding-right: 2px;
+	}
+}
+
+@media (max-width: 378px){
+	.contacts{
+		width: 90%;
+		padding-right: 0;
+		padding-left: 1px;
 	}
 }
